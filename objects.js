@@ -87,13 +87,7 @@ const cafe = {
     name: "Whitesheep",
     seatingCapacity: 100, 
     hasSpecialOffers: true,
-    drinks: [
-        "cappuccino",
-        "Latte",
-        "Filter coffee",
-        "Tea",
-        "Hot chocolate"
-    ],
+    drinks: [ "cappuccino", "Latte", "Filter coffee", "Tea", "Hot chocolate" ] ,
     breakfastOffer: "free croissant with coffee",
     lunchOffer: "Free drink with suprisingly priced sandwich",
     noOffer: "Sorry! No offer",

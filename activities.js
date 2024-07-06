@@ -8,10 +8,9 @@ let person = {
         "Level 42 - Something About You",
         "ACDC - Back In Black"
     ],
-    
-};
+    sayHi: function() {
+        console.log("Hi, my name is " + this.myName + "!");
+    }
+}
 
-sayHi = true
- return `hello my name is ${this.myName}`
-
-console.log(sayHi)
+person.sayHi ()
